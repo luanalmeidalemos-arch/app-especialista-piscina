@@ -21,7 +21,7 @@ Desenvolvido como projeto de portfólio e também utilizado na prática por uma 
 
 - [React Native](https://reactnative.dev/) com [Expo](https://expo.dev/)
 - [Groq API](https://groq.com/) — LLM gratuita e rápida
-- Llama 3.1 8b Instant (Meta) como modelo de linguagem
+- Llama 3.3 70b Versatile (Meta) como modelo de linguagem — 70 bilhões de parâmetros
 - Conhecimento técnico armazenado localmente em `dados/poolKnowledge.js`
 
 ## 📁 Estrutura do projeto
@@ -47,6 +47,12 @@ Desenvolvido como projeto de portfólio e também utilizado na prática por uma 
 ## ⚙️ Como personalizar o conhecimento
 
 Edite o arquivo `dados/poolKnowledge.js` para adaptar o especialista a qualquer área. Basta trocar o conteúdo técnico — sem precisar mexer no código do app.
+
+## 📌 Atualizações recentes
+
+- **v1.2** — Upgrade do modelo de IA para Llama 3.3 70b (70 bilhões de parâmetros)
+- **v1.1** — Melhorada a leitura da tabela de dosagem por piscina (formato de fichas individuais)
+- **v1.0** — Versão inicial com chat, fluxo de diagnóstico de pH e cloro, e quadro de piscinas
 
 ## 👤 Autor
 

@@ -227,31 +227,114 @@ Caso o usuário tente obter essas informações, responda:
 
 # TABELA DE DOSAGEM
 
-(COLE AQUI SUA TABELA DE CONDOMÍNIOS E DOSAGENS)
+=== QUADRO DE PISCINAS DA EMPRESA ===
 
-| Nome do Local                | Litragem       | Tipo      | CL ≥ 2.0      | CL 1.5 | CL 1.0 | CL ≤ 1.0 |
-|------------------------------|----------------|-----------|---------------|--------|--------|----------|
-| Condomínio Jardim das Flores | 80.000 litros  | Alvenaria | Sem aplicação | 200g   | 300g   | 400g     |
-| Edifício Solar das Águas     | 45.000 litros  | Fibra     | Sem aplicação | 50g    | 50g    | 100g     |
-| Clube Recreativo Vista Verde | 120.000 litros | Alvenaria | Sem aplicação | 400g   | 600g   | 800g     |
-| Residencial Monte Azul       | 30.000 litros  | Vinil     | Sem aplicação | 25g    | 25g    | 50g      |
+REGRA OBRIGATÓRIA:
+ Quando o usuário informar o nome de uma piscina, localize a ficha correspondente abaixo e use EXATAMENTE os valores indicados. Nunca calcule ou estime — use só o que está na ficha.
+
+--- FICHA 01 ---
+Local: Condomínio Jardim das Flores
+Litragem: 80.000 litros
+Tipo: Alvenaria
+Dosagem de cloro:
+  - Cloro acima de 2,0 ppm → NÃO aplicar cloro
+  - Cloro em 1,5 ppm → aplicar 200g de cloro granulado
+  - Cloro em 1,0 ppm → aplicar 300g de cloro granulado
+  - Cloro abaixo de 1,0 ppm → aplicar 400g de cloro granulado
+
+--- FICHA 02 ---
+Local: Edifício Solar das Águas
+Litragem: 45.000 litros
+Tipo: Fibra
+Dosagem de cloro:
+  - Cloro acima de 2,0 ppm → NÃO aplicar cloro
+  - Cloro em 1,5 ppm → aplicar 50g de cloro granulado
+  - Cloro em 1,0 ppm → aplicar 50g de cloro granulado
+  - Cloro abaixo de 1,0 ppm → aplicar 100g de cloro granulado
+
+--- FICHA 03 ---
+Local: Clube Recreativo Vista Verde
+Litragem: 120.000 litros
+Tipo: Alvenaria
+Dosagem de cloro:
+  - Cloro acima de 2,0 ppm → NÃO aplicar cloro
+  - Cloro em 1,5 ppm → aplicar 400g de cloro granulado
+  - Cloro em 1,0 ppm → aplicar 600g de cloro granulado
+  - Cloro abaixo de 1,0 ppm → aplicar 800g de cloro granulado
+
+--- FICHA 04 ---
+Local: Residencial Monte Azul
+Litragem: 30.000 litros
+Tipo: Vinil
+Dosagem de cloro:
+  - Cloro acima de 2,0 ppm → NÃO aplicar cloro
+  - Cloro em 1,5 ppm → aplicar 25g de cloro granulado
+  - Cloro em 1,0 ppm → aplicar 25g de cloro granulado
+  - Cloro abaixo de 1,0 ppm → aplicar 50g de cloro granulado
 
 # BASE DE CONHECIMENTO TÉCNICO
 
-(COLE AQUI TODA SUA BASE DE CONHECIMENTO SOBRE:
-ÁGUA VERDE,
-ÁGUA TURVA,
-ALGAS,
-PH,
-CLORO,
-ALCALINIDADE,
-FILTROS,
-BOMBAS,
-CONTAMINAÇÕES,
-MANUTENÇÃO,
-SEGURANÇA,
-EQUIPAMENTOS,
-ETC.)
+=== PROBLEMAS DE ÁGUA ===
+
+ÁGUA VERDE:
+- Causa: proliferação de algas por falta de cloro ou pH desequilibrado
+- Solução: 
+  1. Meça o pH (ideal: 7.2 a 7.6)
+  2. Aplique choque de cloro: 200g para cada 50.000 litros
+  3. Mantenha a bomba ligada por 24 horas
+  4. Aspire o fundo após 48 horas
+- Prevenção: mantenha cloro entre 1 e 3 ppm
+
+ÁGUA TURVA/LEITOSA:
+- Causa: pH alto, excesso de produto químico ou filtro sujo
+- Solução:
+  1. Verifique e ajuste o pH
+  2. Limpe ou lave o filtro
+  3. Use clarificante: 50ml para cada 50.000 litros
+- Prevenção: limpe o filtro semanalmente
+
+ÁGUA COM CHEIRO FORTE DE CLORO:
+- Causa: excesso de cloraminas (cloro combinado com impurezas)
+- Solução:
+  1. Faça choque de cloro para quebrar as cloraminas
+  2. Mantenha pH entre 7.2 e 7.4
+- Observação: cheiro forte NÃO significa excesso de cloro, significa cloro sujo
+
+=== EQUIPAMENTOS ===
+
+BOMBA NÃO LIGA:
+- Verifique se há energia no disjuntor
+- Verifique se o capacitor está queimado (chame um técnico)
+- Verifique se o pré-filtro está entupido
+
+BOMBA LIGADA MAS SEM FLUXO:
+- Causa: pré-filtro entupido ou vazamento na tubulação de sucção
+- Solução: limpe o pré-filtro e verifique as conexões
+
+FILTRO DE AREIA:
+- Lave a areia (backwash) a cada 15 dias ou quando a pressão subir 30%
+- Troque a areia a cada 3 a 5 anos
+
+=== MANUTENÇÃO ===
+
+ROTINA SEMANAL:
+- Meça pH e cloro
+- Limpe as bordas com esponja
+- Esvazie o pré-filtro
+- Aspire o fundo se necessário
+
+ROTINA MENSAL:
+- Lave o filtro (backwash)
+- Meça alcalinidade (ideal: 80 a 120 ppm)
+- Aplique algicida preventivo
+
+PRODUTOS E QUANTIDADES (para 50.000 litros):
+- Cloro granulado: 100 a 200g por semana
+- Algicida: 500ml por mês
+- Clarificante: 50ml quando necessário
+- pH menos: 100g para baixar 0.2 no pH
+- pH mais: 100g para subir 0.2 no pH
+
 
 IMPORTANTE:
 
